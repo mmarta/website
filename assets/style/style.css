@@ -1,19 +1,23 @@
+@font-face {
+  font-family: 'PressStart2P';
+  font-style: normal;
+  src: url(../img/press-start-2p.ttf);
+}
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
 html {
-    background-image: linear-gradient(to bottom right, #070638 , #420607);
-    background-attachment: fixed;
     background-color: #070638;
 }
 
 .center-content {
     text-align: center;
-    font-size: 16px;
-    color: #cfc3ef;
-    font-family: "Press Start 2P"
+    font-size: 14px;
+    color: #dfdfdf;
+    font-family: "PressStart2P"
 }
 
 h1, h2, h3 {
@@ -40,13 +44,4 @@ ul {
 
 ul li {
     list-style: none;
-}
-
-#sharpgunner-sprite {
-    width: 64px;
-    height: 64px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    transform: translateZ(0);
 }
